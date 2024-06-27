@@ -29,27 +29,49 @@
       ]
     },
     {
-      "link": "/features/",
-      "text": "Features",
-      "enable_dropdown": false,
-      "dropdown": []
-    },
-    {
-      "link": "/pricing/",
-      "text": "Pricing",
-      "enable_dropdown": false,
-      "dropdown": []
-    },
-    {
-      "link": "/about/",
-      "text": "About",
-      "enable_dropdown": false,
-      "dropdown": []
-    },
-    {
-      "link": "/blog/",
-      "text": "Blog",
+      "link": null,
+      "text": "Programs",
       "enable_dropdown": true,
+      "dropdown": [
+        {
+          "dropdown_text": "American Business Award",
+          "dropdown_link": "/aba/"
+        },
+        {
+          "dropdown_text": "Asia-Pacific Stevie Awards",
+          "dropdown_link": "/apsa/"
+        }
+      ]
+    },
+    {
+      "link": null,
+      "text": "Judges",
+      "enable_dropdown": true,
+      "dropdown": [
+        {
+          "dropdown_text": "Apply to be a Judge",
+          "dropdown_link": "/judges/apply/"
+        },
+        {
+          "dropdown_text": "Judge & Awards Process",
+          "dropdown_link": "/judges/process"
+        },
+        {
+          "dropdown_text": "Judge's Comments",
+          "dropdown_link": "/judges/comments/"
+        }
+      ]
+    },
+    {
+      "link": "/sponsors/",
+      "text": "Sponsors",
+      "enable_dropdown": false,
+      "dropdown": []
+    },
+    {
+      "link": "/stores/",
+      "text": "Stores",
+      "enable_dropdown": false,
       "dropdown": [
         {
           "dropdown_text": "All Articles",
@@ -66,10 +88,16 @@
       ]
     },
     {
-      "link": "/contact/",
-      "text": "Contact",
+      "link": "/press/",
+      "text": "Press",
       "enable_dropdown": false,
       "dropdown": []
+    },
+    {
+      "link": "/calendar/",
+      "text": "Calendar",
+      "enable_dropdown": null,
+      "dropdown": null
     }
   ],
   "enable_nav_btn": true,
