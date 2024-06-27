@@ -1,33 +1,54 @@
 {
-  "logo": "/images/logo.svg",
+  "logo": "/images/navbar/logo.png",
   "items": [
     {
-      "text": "Home",
-      "link": "/",
-      "enable_dropdown": false,
-      "dropdown": []
-    },
-    {
-      "text": "Features",
-      "link": "/features/",
-      "enable_dropdown": false,
-      "dropdown": []
-    },
-    {
-      "text": "Pricing",
-      "link": "/pricing/",
-      "enable_dropdown": false,
-      "dropdown": []
-    },
-    {
+      "link": null,
       "text": "About",
-      "link": "/about/",
+      "enable_dropdown": true,
+      "dropdown": [
+        {
+          "dropdown_text": "About the Stevie Awards",
+          "dropdown_link": "/about"
+        },
+        {
+          "dropdown_text": "Staff",
+          "dropdown_link": "/staff"
+        },
+        {
+          "dropdown_text": "Calendar",
+          "dropdown_link": "/calendar"
+        },
+        {
+          "dropdown_text": "Stevie Awards Update Newsletter",
+          "dropdown_link": "/newsletter"
+        },
+        {
+          "dropdown_text": "Contact",
+          "dropdown_link": "/contact"
+        }
+      ]
+    },
+    {
+      "link": "/features/",
+      "text": "Features",
       "enable_dropdown": false,
       "dropdown": []
     },
     {
-      "text": "Blog",
+      "link": "/pricing/",
+      "text": "Pricing",
+      "enable_dropdown": false,
+      "dropdown": []
+    },
+    {
+      "link": "/about/",
+      "text": "About",
+      "enable_dropdown": false,
+      "dropdown": []
+    },
+    {
       "link": "/blog/",
+      "text": "Blog",
       "enable_dropdown": true,
       "dropdown": [
         {
@@ -45,8 +66,8 @@
       ]
     },
     {
-      "text": "Contact",
       "link": "/contact/",
+      "text": "Contact",
       "enable_dropdown": false,
       "dropdown": []
     }
