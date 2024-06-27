@@ -1,5 +1,6 @@
 {
-  "logo": "/images/footer-logo.svg",
+  "logo": "/images/navbar/logo.png",
+  "logo2": "/images/navbar/siteName.png",
   "logo_url": "/",
   "copyright": "MyCompany. All rights reserved.",
   "social": [
@@ -26,51 +27,28 @@
   ],
   "sections": [
     {
-      "title": "Main Pages",
-      "links": [
-        {
-          "link": "/",
-          "text": "Home"
-        },
-        {
-          "link": "/features/",
-          "text": "Features"
-        },
-        {
-          "link": "/pricing/",
-          "text": "Price"
-        },
-        {
-          "link": "/about/",
-          "text": "About"
-        }
-      ]
+      "link": "/about/",
+      "text": "About"
     },
     {
-      "title": "Community",
-      "links": [
-        {
-          "link": "/blog/",
-          "text": "Blog"
-        },
-        {
-          "link": "/feed.xml",
-          "text": "RSS Feed"
-        }
-      ]
+      "link": "/programs/",
+      "text": "Programs"
     },
     {
-      "title": "Company",
-      "links": [
-        {
-          "link": "/contact/",
-          "text": "Contact"
-        },
-        {
-          "link": "/privacy/",
-          "text": "Privacy Policy"
-        }
-      ]
+      "link": "/sponsors/",
+      "text": "Sponsors"
+    },
+    {
+      "link": "/stores/",
+      "text": "Stores"
+    },
+    {
+      "link": "/press/",
+      "text": "Press"
+    },
+    {
+      "link": "/calendar/",
+      "text": "Calendar"
     }
   ]
 }

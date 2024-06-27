@@ -108,10 +108,16 @@
     }
     ul {
       margin-bottom: $base-margin * 0;
+      display: flex;
+      flex-direction: row;
+      gap: 0.5rem;
+      width: 100%;
+      justify-content: space-between;
       li {
         display: block;
         padding: $base-padding * 0.8 $base-padding * 0.2 $base-padding * 0.8;
         a {
+          text-transform: uppercase;
           color: $color-white;
           font-weight: 600;
           transition: all 0.3s ease-in-out;
@@ -120,6 +126,15 @@
           }
         }
       }
+    }
+  }
+  &-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    padding-top: 2rem;
+    h2 {
+      color: $color-primary;
     }
   }
 }

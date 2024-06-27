@@ -41,7 +41,7 @@
   position: relative;
   z-index: 1;
   overflow: hidden;
-  border-radius: 1rem;
+  // border-radius: 1rem;
   transition: all 0.3s ease-in-out;
 
   &-primary {
@@ -170,7 +170,7 @@
   padding: 1.3rem 2.1rem;
   font-size: 1.1rem;
   line-height: 28.44px;
-  border-radius: 20px;
+  // border-radius: 20px;
 }
 
 .btn-sm,
@@ -178,7 +178,7 @@
   padding: 0.9rem 1.9rem;
   font-size: 1.1rem;
   font-weight: $semibold-font-weight;
-  border-radius: 12px;
+  // border-radius: 12px;
 }
 
 .btn-link {

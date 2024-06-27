@@ -3,6 +3,15 @@
 **********/
 @use "sass:math";
 
+/* Tusker Grotesk */
+@font-face {
+  font-family: 'Tusker Grotesk';
+  font-display: fallback;
+  font-style: normal;
+  font-weight: 400;
+  src: url('/fonts/TuskerGrotesk-6500Medium.woff2') format('woff2');
+}
+
 
 /* sora-regular - latin */
 @font-face {
@@ -184,14 +193,6 @@ body {
   color: $color-text;
   background: $color-white;
   line-height: 1.5;
-}
-
-.bg-nav {
-  background: rgba($color-secondary, 0.95);
-
-  &.sticky-nav {
-    background: $color-white;
-  }
 }
 
 h1,
@@ -630,6 +631,15 @@ a {
 }
 
 /* Keyframes for hero pages */
+@-webkit-keyframes grow {
+  0% {
+    transform: scale(0.9) translate(-50%, -50%);
+  }
+
+  100% {
+    transform: scale(1) translate(-50%, -50%);
+  }
+}
 @keyframes grow {
   0% {
     transform: scale(0.9) translate(-50%, -50%);

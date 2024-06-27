@@ -21,7 +21,7 @@ export default function Footer({}) {
                   {footer.social.map((link, i) => (
                     <li key={i}>
                       <a href={`${link.link}`}>
-                        <i className={link.icon} aria-hidden="true">
+                        <i className={link.social_icon} aria-hidden="true">
                           <span className="visually-hidden">
                             {link.icon_alt}
                           </span>
@@ -33,20 +33,34 @@ export default function Footer({}) {
               </div>
             </div>
 
-            {footer.sections.map((section, i) => (
-              <div className="col-6 col-md-3 col-lg-2 order-1" key={i}>
-                <div className="footer-widget">
-                  <h3 className="">{section.title}</h3>
-                  <ul className="list-unstyled">
-                    {section.links.map((link, i) => (
-                      <li key={i}>
-                        <a href={`${link.link}`}>{link.text}</a>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
+            <div className="col-6 order-1">
+              <div className="footer-widget">
+                <ul className="list-unstyled">
+                  {footer.sections.map((section, i) => (
+                    <li key={i}>
+                      <a href={`${section.link}`}>{section.text}</a>
+                    </li>
+                  ))}
+                </ul>
               </div>
-            ))}
+              <div className="footer-form">
+                <h2 className="h4">SUBSCRIBE TO OUR NEWSLETTER</h2>
+                <p className="text-secondary">
+                  Get free weekly newsletter about opportunities to win Stevie
+                  awards
+                </p>
+                <form className="">
+                  <input
+                    type="email"
+                    // className="form-control"
+                    placeholder="Email"
+                  />
+                  <button type="submit" className="btn btn-primary">
+                    Subscribe
+                  </button>
+                </form>
+              </div>
+            </div>
           </div>
         </div>
       </div>
