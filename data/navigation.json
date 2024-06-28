@@ -3,7 +3,7 @@
   "logo2": "/images/navbar/siteName.png",
   "items": [
     {
-      "link": null,
+      "link": "/about",
       "text": "About",
       "enable_dropdown": true,
       "dropdown": [
@@ -30,7 +30,7 @@
       ]
     },
     {
-      "link": null,
+      "link": "/programs",
       "text": "Programs",
       "enable_dropdown": true,
       "dropdown": [
@@ -45,7 +45,7 @@
       ]
     },
     {
-      "link": null,
+      "link": "/judges",
       "text": "Judges",
       "enable_dropdown": true,
       "dropdown": [
