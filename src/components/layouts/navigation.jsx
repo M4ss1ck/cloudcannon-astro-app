@@ -180,7 +180,7 @@ export default function Navigation({ pageUrl }) {
                   </li>
                 ))}
               </ul>
-              <Search />
+              {/* <Search /> */}
               {/* <LanguageSelector /> */}
             </div>
           </div>
