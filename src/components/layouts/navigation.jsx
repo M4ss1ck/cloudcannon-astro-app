@@ -181,7 +181,7 @@ export default function Navigation({ pageUrl }) {
                 ))}
               </ul>
               <Search />
-              <LanguageSelector />
+              {/* <LanguageSelector /> */}
             </div>
           </div>
         </nav>
