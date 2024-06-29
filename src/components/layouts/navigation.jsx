@@ -1,5 +1,7 @@
 import { useEffect, useState } from "react";
 import navigation from "@data/navigation.json";
+import LanguageSelector from "../i18n/LanguageSelector";
+import Search from "../search/Search";
 
 export default function Navigation({ pageUrl }) {
   const [isSticky, setSticky] = useState(false);
@@ -178,6 +180,8 @@ export default function Navigation({ pageUrl }) {
                   </li>
                 ))}
               </ul>
+              <Search />
+              <LanguageSelector />
             </div>
           </div>
         </nav>

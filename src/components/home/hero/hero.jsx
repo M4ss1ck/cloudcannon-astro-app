@@ -4,7 +4,7 @@ const md = new MarkdownIt({ html: true });
 export default function HomeHero(block) {
   return (
     <section className="hero-two">
-      <div className="hero-two-shape"></div>
+      {/* <div className="hero-two-shape"></div> */}
       <div className="container-fluid">
         <div className="row align-items-center">
           <div className="col-lg-6">
@@ -32,7 +32,7 @@ export default function HomeHero(block) {
           <div className="col-lg-6">
             <div className="hero-two-banner">
               <img src={block.image} alt={block.image_alt} />
-              <div className="hero-two-banner-shape"></div>
+              {/* <div className="hero-two-banner-shape"></div> */}
             </div>
           </div>
         </div>
