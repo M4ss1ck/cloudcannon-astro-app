@@ -17,6 +17,7 @@
     "@bookshop/astro-bookshop": "3.6.0",
     "@bookshop/astro-engine": "3.6.0",
     "@bookshop/generate": "3.6.0",
+    "@fontsource-variable/inter": "^5.0.18",
     "@makotot/ghostui": "^2.0.0",
     "@types/react": "^18.0.25",
     "@types/react-dom": "^18.0.9",

@@ -34,6 +34,8 @@
   fieldset:disabled & {
     pointer-events: none;
     box-shadow: none;
+    color: $color-white;
+    background: $color-cyan;
   }
 }
 
@@ -44,15 +46,15 @@
   // border-radius: 1rem;
   transition: all 0.3s ease-in-out;
 
-  &-primary {
-    color: $color-white;
+  &-primary {    
+    color: #000;
     background: $color-primary;
     border: $base-border-width solid $color-primary;
     font-weight: 700;
 
     &:hover {
-      color: $color-primary;
-      background: $color-white;
+      color: $color-white;
+      background: #000;
       border-color: $color-primary;
     }
 
@@ -121,8 +123,8 @@
 
   &-links {
     background: transparent;
-    color: $color-primary;
-    border: 1px solid $color-secondary-light;
+    color: #000;
+    border: none;
     position: relative;
     transition: all 0.3s ease-in-out;
 
@@ -132,9 +134,9 @@
     &:active:focus,
     &:hover:focus,
     &:hover {
-      color: $color-white;
-      background: $color-primary;
-      border: $base-border-width solid $color-secondary-light;
+      color: $color-primary;
+      // background: $color-primary;
+      // border: $base-border-width solid $color-secondary-light;
     }
   }
 
@@ -182,7 +184,7 @@
 }
 
 .btn-link {
-  text-decoration: underline;
+  text-decoration: none;
 
   &:hover {
     color: $color-primary;

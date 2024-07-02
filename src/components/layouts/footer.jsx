@@ -44,8 +44,8 @@ export default function Footer({}) {
                 </ul>
               </div>
               <div className="footer-form">
-                <h2 className="h4">SUBSCRIBE TO OUR NEWSLETTER</h2>
-                <p className="text-secondary">
+                <h2 className="h5">SUBSCRIBE TO OUR NEWSLETTER</h2>
+                <p className="text-secondary p2">
                   Get free weekly newsletter about opportunities to win Stevie
                   awards
                 </p>
