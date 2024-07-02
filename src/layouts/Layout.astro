@@ -5,6 +5,7 @@ import Navigation from "@components/layouts/navigation";
 import { SEO } from "astro-seo";
 import site from "@data/site.json";
 import { HeadHrefLangs } from "astro-i18next/components"
+import i18next from "i18next";
 
 export interface SEOProps {
   page_description: string | null;
@@ -33,7 +34,7 @@ const canonicalURL = new URL(seo?.canonical_url ?? Astro.url.pathname, baseUrl);
 ---
 
 <!DOCTYPE html>
-<html>
+<html lang={i18next.language}>
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />

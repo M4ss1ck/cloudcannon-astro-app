@@ -1,4 +1,5 @@
 import footer from "@data/footer.json";
+import { t } from "i18next";
 
 export default function Footer({}) {
   return (
@@ -44,10 +45,11 @@ export default function Footer({}) {
                 </ul>
               </div>
               <div className="footer-form">
-                <h2 className="h5">SUBSCRIBE TO OUR NEWSLETTER</h2>
+                <h2 className="h5">{t("SUBSCRIBE TO OUR NEWSLETTER")}</h2>
                 <p className="text-secondary p2">
-                  Get free weekly newsletter about opportunities to win Stevie
-                  awards
+                  {t(
+                    "Get free weekly newsletter about opportunities to win Stevie awards"
+                  )}
                 </p>
                 <form className="">
                   <input
