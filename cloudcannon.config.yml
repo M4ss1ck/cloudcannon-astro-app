@@ -93,17 +93,32 @@ collections_config:
       include:
         - navigation.json
         - footer.json
-  locales:
-    path: public/locales
+  locale_en:
+    path: public/locales/en
+    name: English
     output: true
     icon: language
     disable_add: true
     disable_add_folder: true
+    _enabled_editors:
+      - data
     filter:
       base: none
       include:
-        - en/translation.json
-        - es/translation.json
+        - translation.json
+  locale_es:
+    path: public/locales/es
+    name: Spanish
+    output: true
+    icon: language
+    disable_add: true
+    disable_add_folder: true
+    _enabled_editors:
+      - data
+    filter:
+      base: none
+      include:
+        - translation.json
 
 collection_groups:
   - heading: Pages
@@ -119,7 +134,8 @@ collection_groups:
       - theme_palette
   - heading: Locales
     collections:
-      - locales
+      - locale_en
+      - locale_es
 
 _structures:
   content_blocks:
