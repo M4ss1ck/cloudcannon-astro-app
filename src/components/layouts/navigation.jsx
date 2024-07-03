@@ -7,6 +7,7 @@ export default function Navigation({ pageUrl }) {
 
   const handleLanguageChange = (e) => {
     const newLang = e.target.value;
+    setLang(newLang);
     const currentPath = window.location.pathname;
 
     // Strip existing language prefix if present

@@ -8,8 +8,8 @@ export default function Footer({}) {
         <div className="footer-wrapper">
           <div className="row">
             <div className="col-12 col-lg-4 me-auto order-2 order-lg-1">
-              <div className="footer-logo mt-7 mt-md-0">
-                <a href={footer.logo_url} className="">
+              <div className="footer-logo mt-7 mt-md-0 text-center">
+                <a href={footer.logo_url} className="d-none d-lg-block">
                   <img src={footer.logo} alt="logo" />
                 </a>
                 <p>
@@ -34,7 +34,12 @@ export default function Footer({}) {
               </div>
             </div>
 
-            <div className="col-6 order-1">
+            <div className="col-12 col-lg-6 order-1">
+              <div className="d-flex d-lg-none align-items-center justify-content-center">
+                <a href={footer.logo_url} className="">
+                  <img src={footer.logo} alt="logo" />
+                </a>
+              </div>
               <div className="footer-widget">
                 <ul className="list-unstyled">
                   {footer.sections.map((section, i) => (

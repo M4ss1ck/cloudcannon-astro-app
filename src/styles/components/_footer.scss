@@ -53,9 +53,7 @@
         margin-bottom: $base-margin * 2;
         @include media-breakpoint-down-lg {
           justify-content: center;
-        }
-        @include media-breakpoint-down-sm {
-          justify-content: start;
+          align-items: center;
         }
 
         li {
@@ -126,6 +124,11 @@
           }
         }
       }
+      @include media-breakpoint-down-lg {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+      }
     }
   }
   &-form {
@@ -135,6 +138,11 @@
     padding-top: 2rem;
     h2 {
       color: $color-primary;
+    }
+    @include media-breakpoint-down-lg {
+      justify-content: center;
+      align-items: center;
+      text-align: center;
     }
   }
 }

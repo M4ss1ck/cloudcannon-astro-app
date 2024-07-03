@@ -630,6 +630,17 @@ a {
   overflow: hidden;
 }
 
+select {
+  option {
+    color: $color-white;
+    background-color: #000;
+
+    &:hover {
+      color: $color-primary;
+    }
+  }
+}
+
 /* Keyframes for hero pages */
 @-webkit-keyframes grow {
   0% {
