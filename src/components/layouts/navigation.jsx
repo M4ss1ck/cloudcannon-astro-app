@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import navigation from "@data/navigation.json";
+import { fetchData } from "../../services/api";
 
 export default function Navigation({ pageUrl }) {
   const [isSticky, setSticky] = useState(false);
@@ -29,6 +30,7 @@ export default function Navigation({ pageUrl }) {
     } else {
       setLang("en");
     }
+    fetchData("/get_all_language_options/").then((res) => console.log(res));
   }, []);
 
   const handleScroll = () => {

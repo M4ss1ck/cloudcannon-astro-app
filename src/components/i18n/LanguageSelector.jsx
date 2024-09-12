@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import { fetchData } from "../../services/api";
 
 export default function LanguageSelector() {
   const [lang, setLang] = useState("en");
@@ -25,6 +26,7 @@ export default function LanguageSelector() {
     } else {
       setLang("en");
     }
+    fetchData("/get_all_language_options").then((res) => console.log(res));
   }, []);
   return (
     <select
