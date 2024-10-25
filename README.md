@@ -35,6 +35,12 @@ $ npm run dev
 
 Sendit is set up for adding, updating and removing pages, components, posts, portfolio items, company details and footer elements in [CloudCannon](https://app.cloudcannon.com/).
 
+### Components
+
+- Add the new react component in the `src/components` directory inside its own parent directory or using an existing one. E.g `src/components/test/test.jsx`. More information on [Clodcannon Documentation](https://cloudcannon.com/documentation/guides/bookshop-astro-guide/component-templating/)
+- Create a [Bookshop specification file](https://cloudcannon.com/documentation/guides/bookshop-astro-guide/using-structures/#the-bookshop-specification-file) next to the component file. It must share the same name in the form component-name.bookshop.yml. E.g `src/components/test/test.bookshop.yml`
+- The main sections here are `spec` and `bluprint`. The `spec` section names this component and tells CloudCannon where you can place this component on your site and the `blueprint` section defines the data your component needs and provides the default values when a new component is created.
+
 ### Posts
 
 - Add, update or remove a post in the _Posts_ collection.
