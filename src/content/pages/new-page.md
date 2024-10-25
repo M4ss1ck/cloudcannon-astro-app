@@ -10,11 +10,7 @@ seo:
   open_graph_type:
   no_index: false
 content_blocks:
-  - _bookshop_name: about/hero
-    title: New page
-    description: This is the new page's description
-    hero_images: []
-    button:
-      text: Try This Free
-      link: /signup
+  - _bookshop_name: test
+    title: Title here
+    subtitle: And this is the subtitle
 ---
